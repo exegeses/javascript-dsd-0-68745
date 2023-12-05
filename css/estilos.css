@@ -19,3 +19,24 @@ h1{
     font-weight: 300;
     margin-bottom: 32px;
 }
+#navegacion{
+    margin: 8px 0px;
+}
+    #navegacion a{
+        background-color: hsl(287, 45%, 30%);
+        color: hsl(287, 55%, 83%);
+        padding: 8px 24px;
+        border-radius: 8px 8px 0px 0px;
+        text-decoration: none;
+        transition: 500ms;
+    }
+    #navegacion a:hover{
+        background-color: hsl(287, 45%, 40%);
+        box-shadow: 0px 0px 8px hsl(287, 45%, 40%);
+    }
+    #frase{
+        background-color: hsl(287, 45%, 30%);
+        padding: 24px;
+        font-size: 20px;
+        border-radius: 0px 12px 12px 12px;
+    }
