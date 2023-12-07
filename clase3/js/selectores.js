@@ -21,6 +21,9 @@
 
   elementosLista[2].style.backgroundColor = 'hsl(120, 25%, 10%)';
 
+  parrafos[1].style.fontSize = '40px';
+
+
 
 /* maneras anteriores de seleccionar elementos */  
 const segundo = document.getElementById('segundo');
@@ -29,8 +32,6 @@ segundo.style.padding = '24px';
 /* 
 const p = document.getElementsByClassName('parrafo')
 p[1]......
-
 const lis = document.getElementsByTagName('li');
 lis[2]....
-
 */

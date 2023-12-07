@@ -40,3 +40,12 @@ h1{
         font-size: 20px;
         border-radius: 0px 12px 12px 12px;
     }
+    #texto{
+        background-color: hsl(287, 45%, 30%);
+        padding: 24px;
+        font-size: 24px;
+        border-radius: 12px 12px;
+        display: inline-block;
+        margin: 24px;
+    }
+
