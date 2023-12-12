@@ -49,3 +49,13 @@ h1{
         margin: 24px;
     }
 
+#caja{
+    width: 256px;
+    height: 256px;
+    background-color: #c1c1c1;
+    margin: 32px 16px;
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 32px;
+    color: #2c0f34;
+}

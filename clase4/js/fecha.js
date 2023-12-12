@@ -32,29 +32,29 @@ else {
     numeroSemana = 'Sabado'
 } */
 
-let diaSemana = '';
+let diaSemana;
 switch(  numeroSemana )
 {
     case 0:
-        diaSemana = "Domingo";
+        diaSemana = 'Domingo';
         break;
     case 1:
-        diaSemana = "Lunes";
+        diaSemana = 'Lunes';
         break;
     case 2:
-        diaSemana = "Martes";
+        diaSemana = 'Martes';
         break;
     case 3:
-        diaSemana = "Miércoles";
+        diaSemana = 'Miércoles';
         break;
     case 4:
-        diaSemana = "Jueves";
+        diaSemana = 'Jueves';
         break;
     case 5:
-        diaSemana = "Viernes";
+        diaSemana = 'Viernes';
         break;
     default:
-        diaSemana = "Sábado";
+        diaSemana = 'Sábado';
         break;
 }
 console.log('dia de la semana: ', diaSemana);
