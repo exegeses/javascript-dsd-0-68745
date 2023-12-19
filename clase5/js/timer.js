@@ -31,3 +31,8 @@ function detener()
     clearInterval( intervalo);
     flag = 0;
 }
+function resetTimer()
+{
+    numero = 0;
+    texto.innerText = numero;
+}
