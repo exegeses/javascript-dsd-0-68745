@@ -59,3 +59,15 @@ h1{
     font-size: 32px;
     color: #2c0f34;
 }
+#boton{
+    background-color: hsl(287, 45%, 30%);
+    color: hsl(287, 55%, 83%);
+    padding: 8px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 500ms;
+}
+#boton:hover{
+    background-color: hsl(287, 45%, 40%);
+    box-shadow: 0px 0px 8px hsl(287, 45%, 40%);
+}    
