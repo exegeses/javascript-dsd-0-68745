@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+figure{
+    width: 350px;
+    height: 350px;
+    background-image: url(../imgs/alonso.jpg);
+    background-size: 350px;
+    background-position: center 0;
+    transition: 500ms;
+}
+figure:hover{
+    background-size: 380px;
+}
